@@ -14,7 +14,7 @@
 		D79DB71D2CF62B5C00952AE2 /* Exceptions for "RBGViewer" folder in "RBGViewer" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
 			target = D79DB70A2CF62B5B00952AE2 /* RBGViewer */;
 		};
@@ -147,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V58TNGL379;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RBGViewer/Info.plist;
+				INFOPLIST_FILE = RBGViewer/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -179,7 +179,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V58TNGL379;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RBGViewer/Info.plist;
+				INFOPLIST_FILE = RBGViewer/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

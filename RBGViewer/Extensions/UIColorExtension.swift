@@ -7,6 +7,11 @@
 import UIKit
 
 extension UIColor {
+	
+	convenience init(_ rgb: RGB?) {
+		self.init(red: CGFloat(rgb?.red ?? 0), green: CGFloat(rgb?.green ?? 0), blue: CGFloat(rgb?.blue ?? 0), alpha: 1)
+	}
+	
     func toHexString() -> String {
         let components = self.cgColor.components ?? [0, 0, 0, 1]
         let r = components[0]
